@@ -1,0 +1,14 @@
+To run the program you need to open the project in Visual Studio.
+Press Ctrl + F5
+
+The program is consisted of one base class for the cards, one PayDesk class and 3 variations of cards.
+All of the cards inherit ICard
+
+ICard => Card => Bronze Card, Silver Card, Golden Card
+
+All cards inherit 3 methods - GetDiscount(gets the discount by multiplying purchase value and discount rate)
+			    - GetDiscountRate(every card gets the discount rate differently)
+		            - GetTotal(gets the total value by substracting purchase value and discount)
+PayDesk contains all the card
+It has 2 methods - AddToList(adds card to the list of cards)
+		 - override to ToString(prints all of the information)
